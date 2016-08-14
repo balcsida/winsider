@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dávid Balatoni -- Theme Development -- @balcsida
+
+# THANKS
+
+    @jchck_ for his amazing article: http://jstn.ch/wordpress/dev-modern-wordpress-theme-npm-gulpjs-basscss
+    @jxnblk for Basscss
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, PHP
+    Basscss
