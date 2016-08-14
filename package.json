@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "WordPress theme for WINSIDER",
   "main": "index.php",
-  "scripts": {
-    "install": "npm install -D css-mqpacker cssnano postcss-cssnext gulp gulp-postcss gulp-size postcss-css-variables postcss-import precss && npm install -S basscss basscss-addons basscss-basic"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/balcsida/winsider-wp.git"
