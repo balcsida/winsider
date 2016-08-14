@@ -24,7 +24,6 @@ function winsider_body_classes( $classes ) {
 		$classes[] = 'hfeed';
 	}
 
-	$classes[] = 'bg-gray';
 	return $classes;
 }
 add_filter( 'body_class', 'winsider_body_classes' );

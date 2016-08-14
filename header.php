@@ -20,9 +20,9 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?> style="padding-top:121px">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'winsider' ); ?></a>
-
+<body <?php body_class('bg-gray'); ?>>
+<!-- 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'winsider' ); ?></a>
+ -->
 	<header role="banner">
 		<div class="zi2 absolute top-0 left-0 right-0">
 			<div class="bg-black white">
