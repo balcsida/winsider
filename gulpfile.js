@@ -92,7 +92,7 @@ gulp.task('css-dev', function(){
 // The gulp watch task
 gulp.task('watch', function(){
 	browserSync.init({
-		files: ['{lib}/**/*.php', '*.php'],
+		files: ['{lib}/**/*.php', '*.php', 'inc/*.php'],
 		proxy: devURL,
 		snippetOptions: {
 			whitelist: ['/wp-admin/admin-ajax.php'],
