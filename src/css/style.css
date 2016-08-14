@@ -1,0 +1,88 @@
+/*!
+Theme Name: WINSIDER
+Theme URI: https://winsider.hu
+Author: Dávid Balatoni (balcsida)
+Author URI: https://balcsida.hu
+Description: A WINSIDER sablonja, Basscss alapokon, erősen a Windows Blogs által inspirálva
+Version: 0.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: winsider
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+WINSIDER is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+*/
+@import 'basscss-basic';
+
+/* Basscss Modules */
+
+@import 'basscss-type-scale';
+@import 'basscss-typography';
+@import 'basscss-layout';
+@import 'basscss-align';
+@import 'basscss-margin';
+@import 'basscss-padding';
+@import 'basscss-grid';
+@import 'basscss-flexbox';
+@import 'basscss-position';
+@import 'basscss-border';
+@import 'basscss-hide';
+
+/* Basscss Additional Modules */
+
+@import 'basscss-addons/modules/responsive-margin';
+@import 'basscss-addons/modules/responsive-padding';
+@import 'basscss-addons/modules/media-object';
+@import 'basscss-addons/modules/all';
+@import 'basscss-addons/modules/forms';
+@import 'basscss-addons/modules/input-range';
+@import 'basscss-addons/modules/progress';
+@import 'basscss-addons/modules/btn';
+@import 'basscss-addons/modules/btn-primary';
+@import 'basscss-addons/modules/btn-outline';
+@import 'basscss-addons/modules/btn-sizes';
+@import 'basscss-addons/modules/colors';
+@import 'basscss-addons/modules/background-colors';
+@import 'basscss-addons/modules/border-colors';
+@import 'basscss-addons/modules/darken';
+@import 'basscss-addons/modules/lighten';
+@import 'basscss-addons/modules/background-images';
+
+/* Theme Specific Variables */
+
+@import '_variables';
+
+body{
+	font-family: 'Segoe UI', sans-serif;
+}
+
+.gray {color: #767676}
+.grayer {color: #5f5e5e}
+.uppercase {text-transform: uppercase}
+.facebook:hover{background: #3b5998}
+.youtube:hover{background: #cd201f}
+.hover-bg-black:hover{background: #1a1a1a;}
+
+.fw-100 { font-weight: 100 }
+.fw-200 { font-weight: 200 }
+.fw-300 { font-weight: 300 }
+.fw-400 { font-weight: 400 }
+.fw-500 { font-weight: 500 }
+.fw-600 { font-weight: 600 }
+.fw-700 { font-weight: 700 }
+.fw-800 { font-weight: 800 }
+.fw-900 { font-weight: 900 }
+footer{
+	border-top: 10px solid #0078d7;
+}
+.slash-before:before{content:' / ';margin-left:3px;margin-right:3px;color: #000}
+h2{
+	font-size: 1.6875rem;
+	line-height: 2.0625rem;
+}
+.zi2{z-index: 2}
