@@ -13,9 +13,9 @@
  */
 
 get_header(); ?>
+<div class="col-12 sm-col-10 mx-auto m2 sm-my2 md-my2 lg-my3 flex flex-wrap">
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<main class="col-12 sm-col-12 md-col-9 lg-col-9 md-pr3">
 
 		<?php
 		if ( have_posts() ) :
@@ -48,9 +48,10 @@ get_header(); ?>
 
 		endif; ?>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
+	</main>
 
-<?php
-get_sidebar();
-get_footer();
+<?php get_sidebar(); ?>
+
+</div>
+
+<?php get_footer(); 
