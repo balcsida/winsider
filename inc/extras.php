@@ -27,3 +27,15 @@ function winsider_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'winsider_body_classes' );
+
+
+/**
+ * Adds custom classes to menu items.
+ *
+ * @param array $classes Classes for the ui element.
+ * @return array
+ */
+function winsider_add_menuclass( $ulclass ) {
+   return preg_replace('/<a /', '<a class="p2 inline-block m0 hover-bg-black white text-decoration-none" ', $ulclass);
+}
+add_filter( 'wp_nav_menu' , 'winsider_add_menuclass' );
