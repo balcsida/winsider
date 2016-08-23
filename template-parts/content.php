@@ -10,17 +10,19 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class('bg-white px2 py1 sm-px3 sm-py2 mb2 sm-mb3'); ?>>
+
 	<header class="entry-header">
+		<h3 class="gray h5 uppercase"><?php winsider_posted_on(); ?></h3>
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
-			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+			the_title( '<h2 class="regular mt1"><a class="text-decoration-none" href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php winsider_posted_on(); ?>
+			
 		</div><!-- .entry-meta -->
 		<?php
 		endif; ?>
