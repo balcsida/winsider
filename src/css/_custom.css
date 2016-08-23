@@ -1,0 +1,32 @@
+body{
+	font-family: 'Segoe UI', sans-serif;
+	padding-top: 121px;
+}
+
+.gray {color: #767676}
+.grayer {color: #5f5e5e}
+.uppercase {text-transform: uppercase}
+.facebook:hover{background: #3b5998}
+.youtube:hover{background: #cd201f}
+.hover-bg-black:hover{background: #1a1a1a;}
+
+.fw-100 { font-weight: 100 }
+.fw-200 { font-weight: 200 }
+.fw-300 { font-weight: 300 }
+.fw-400 { font-weight: 400 }
+.fw-500 { font-weight: 500 }
+.fw-600 { font-weight: 600 }
+.fw-700 { font-weight: 700 }
+.fw-800 { font-weight: 800 }
+.fw-900 { font-weight: 900 }
+footer{
+	border-top: 10px solid #0078d7;
+}
+.cat-links:before{content:' / ';margin-left:3px;margin-right:3px;color: #000}
+.cat-links>a{text-decoration: none;color: #767676}
+.cat-links>a:hover{color: #333}
+h2{
+	font-size: 1.6875rem;
+	line-height: 2.0625rem;
+}
+.zi2{z-index: 2}
